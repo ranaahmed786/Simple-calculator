@@ -6,6 +6,7 @@ function appendToDisplay(value) {
 }
 
 function clearDisplay() {
+    expression = '';
     document.getElementById('display').value = '';
 }
 
